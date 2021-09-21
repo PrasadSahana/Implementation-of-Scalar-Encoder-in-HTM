@@ -1,0 +1,16 @@
+{
+  "Customers": [
+
+    "Customer",
+    {
+      "Name": "Damir",
+      "TelNr": "007..."
+    },
+    "Customer",
+    {
+      "Name": "Angela",
+      "TelNr": "0049..."
+    }
+  ]
+
+}

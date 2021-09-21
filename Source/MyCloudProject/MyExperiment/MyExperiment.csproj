@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCloudProject.Common\MyCloudProject.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.5.1" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="data\CloudComputingCommands.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="SEProjectCode\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Reference Include="AkkaSb.Net">
+      <HintPath>..\..\HTM\NeoCortexApi\bin\Debug\netstandard2.0\AkkaSb.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="DistributedComputeLib">
+      <HintPath>..\..\HTM\NeoCortexApi\bin\Debug\netstandard2.0\DistributedComputeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexApi">
+      <HintPath>..\..\HTM\NeoCortexApi\bin\Debug\netstandard2.0\NeoCortexApi.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexArrayLib">
+      <HintPath>..\..\HTM\NeoCortexApi\bin\Debug\netstandard2.0\NeoCortexArrayLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexEntities">
+      <HintPath>..\..\HTM\NeoCortexApi\bin\Debug\netstandard2.0\NeoCortexEntities.dll</HintPath>
+    </Reference>
+    <Reference Include="NeoCortexUtils">
+      <HintPath>..\..\HTM\NeoCortexUtils\bin\Debug\netcoreapp2.2\NeoCortexUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

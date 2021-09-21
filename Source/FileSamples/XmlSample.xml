@@ -1,0 +1,12 @@
+<Root>
+  <Customers>
+    <Customer attribute1="abc">
+      <Name>Damir</Name>
+      <Telnr>+007 1243555635</Telnr>
+    </Customer>
+    <Customer attribute1="def">
+      <Name>Angela</Name>
+      <Telnr>+0049 243555635</Telnr>
+    </Customer>
+    <Customers>
+</Root>

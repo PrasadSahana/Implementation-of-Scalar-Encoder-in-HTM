@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConfigSample": {
+      "commandName": "Project",
+      "commandLineArgs": "--color blue --fontSize 10 --state sleeping"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net46</TargetFrameworks>
+    <Version>1.0.3</Version>
+    <Company>Frankfurt</Company>
+    <Product>Best Calculator ever</Product>
+    <Description>:) :)</Description>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <Authors>University Students</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+  
+  </ItemGroup>
+
+</Project>
